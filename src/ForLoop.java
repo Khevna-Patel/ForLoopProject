@@ -194,11 +194,7 @@ public class ForLoop<num1>
                 result = firstNumber / secondNumber;
                 break;
 
-            case '%':
-                result = firstNumber % secondNumber;
-                break;
-
-            default:
+                default:
                 System.out.printf("Please enter correct operator");//formatted string
                 return;
         }
